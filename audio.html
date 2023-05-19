@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Document</title>
+</head>
+<body>
+    <button onclick=" playAudio()">play</button>
+    <button onclick="pauseAudio()">pause</button>
+    <script>
+        var audioFile=new Audio()
+        audioFile.src="./easy-lifestyle-137766.mp3"
+        
+        function playAudio()
+        {
+            audioFile.play();
+        }
+        function pauseAudio()
+        {
+            audioFile.pause();
+        }
+
+    </script>
+</body>
+</html>
